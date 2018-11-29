@@ -1,9 +1,11 @@
 {
-  "name": "dapeng-cli",
+  "name": "vdaoyun-cli",
   "version": "0.0.3",
   "bin": {
-    "dapeng-cli": "index.js"
+    "vdaoyun-cli": "index.js"
   },
+  "license": "ISC",
+  "repository": "https://registry.npm.taobao.org",
   "dependencies": {
     "chalk": "^2.4.1",
     "co": "^4.6.0",

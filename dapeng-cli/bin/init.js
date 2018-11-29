@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let co = require('co');
 // let prompt = require('co-prompt');
 let chalk = require('chalk');

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const co = require('co')
 const promt = require('co-prompt')
 const chalk = require('chalk')

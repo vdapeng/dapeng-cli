@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 let templates = require('./templates')
 
 module.exports = {

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const list = [
     {
         'name': 'vue-weixin',

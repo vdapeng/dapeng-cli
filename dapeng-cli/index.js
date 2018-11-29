@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const program = require('commander');
 const init = require('./bin/init');
 const list = require('./bin/list');
