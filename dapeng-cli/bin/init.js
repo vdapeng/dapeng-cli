@@ -28,6 +28,7 @@ let generator = function *(name) {
         name = answers_.name ? answers_.name : name;
         inquirer.prompt(prompts.prompts).then(answers => {
             if (answers.isBuild) {
+                answers.name = name;
                 const template = templates.getTemplate(answers.tempName);
                 downloadTemplates(template.path, name, answers);
             }
